@@ -23,13 +23,13 @@ def projects(request):
             "title": "Baby Products",
             "description": "Built with Django + MySQL",
             "link": "https://baby-products-chi.vercel.app/",
-            "image": "images/blood_app.png",
+            
         },
         {
             "title": "Cherii Bakery",
             "description": "Cherii Bakery with Django & Tailwind",
             "link": "https://cherri-bakery.vercel.app/",
-            "image": "images/portfolio.png",
+            
         },
     ]
     return render(request, "projects.html", {"projects": project_list})
