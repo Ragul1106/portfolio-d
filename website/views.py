@@ -8,8 +8,14 @@ def home(request):
     return render(request, "home.html")
 
 def about(request):
-    skills = Skill.objects.all()
+    skills = [
+        {"name": "Python", "level": "Expert"},
+        {"name": "Django", "level": "Advanced"},
+        {"name": "React", "level": "Intermediate"},
+        {"name": "MySQL", "level": "Intermediate"},
+    ]
     return render(request, "about.html", {"skills": skills})
+
 
 def projects(request):
     projects = Project.objects.all()

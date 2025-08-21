@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7k5wk14^b97n5_*nx1-59_r$8zr0v)81rco7&)nc!5^t7&t91&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "portfolio-d-9tie.onrender.com",
@@ -89,10 +89,10 @@ EMAIL_HOST_PASSWORD = 'rwbv smjb pobe kenf'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.dummy'
     }
 }
+
 
 
 # Password validation
