@@ -27,7 +27,7 @@ def projects(request):
         },
         {
             "title": "Cherii Bakery",
-            "description": "Cherii Bakery with Django & Tailwind",
+            "description": "Build with React & Tailwind",
             "link": "https://cherri-bakery.vercel.app/",
             
         },

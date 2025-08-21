@@ -8,7 +8,6 @@ media/
 
 # Static files (collected)
 staticfiles/
-static/
 
 # Virtual Environment
 venv/
