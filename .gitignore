@@ -1,0 +1,46 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Static files (collected)
+staticfiles/
+static/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Migrations (optional if you don’t want to track them at start)
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Environment Variables
+.env
+.env.*

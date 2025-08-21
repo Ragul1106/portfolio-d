@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}About | Portfolio{% endblock %}
+
+{% block content %}
+<h2>About Me</h2>
+<p>I specialize in web development, AI, and creative design.</p>
+
+<h3>Skills</h3>
+<ul>
+  {% for skill in skills %}
+    <li>
+      {{ skill.name }}
+      {% if skill.level %}
+        - <em>{{ skill.level }}</em>
+      {% endif %}
+    </li>
+  {% empty %}
+    <p>No skills added yet.</p>
+  {% endfor %}
+</ul>
+{% endblock %}
